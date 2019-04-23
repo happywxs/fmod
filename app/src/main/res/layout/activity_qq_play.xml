@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="正常"/>
+    <Button
+        android:id="@+id/luo_li"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="萝莉"/>
+    <Button
+        android:id="@+id/da_dashu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="大叔"/>
+    <Button
+        android:id="@+id/thrill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="惊悚"/>
+    <Button
+        android:id="@+id/youling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="幽灵"/>
+</LinearLayout>
